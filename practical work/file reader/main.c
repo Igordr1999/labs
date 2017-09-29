@@ -30,8 +30,8 @@ int main() {
 		};	
 		printf("%s\n", text);
 	}
-
-
+	int size = ftell(file);
+	printf("File size = %d bytes\n", size);
 	fclose(file);
 	return 0;
 }
