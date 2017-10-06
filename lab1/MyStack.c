@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-#define MY_SIZE 32
+#define MY_SIZE 10000
 
 int count = 0;
 int my_stack[MY_SIZE];
