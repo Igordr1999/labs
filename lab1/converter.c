@@ -42,7 +42,11 @@ int main(int argc, char* argv[]) {
 	if (argc <= 1) return 0;
 	if (sscanf(argv[1], "%f", &my_value) == 1)
 		if (argc == 2) my_type = 'C';
-		else if (argc == 3) my_type = argv[2][0];
+		else{
+			if (argc == 3){
+				my_type = argv[2][0];
+			}
+		}
 
 	switch (my_type) {
 		case 'C':
