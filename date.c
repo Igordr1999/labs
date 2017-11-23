@@ -6,6 +6,7 @@ int check_century(int y){
 	if(first_two_numbers % 4 == 1) return 4;
 	if(first_two_numbers % 4 == 2) return 2;
 	if(first_two_numbers % 4 == 3) return 0;
+	return 0;
 }
  
 int code_month(int m){
