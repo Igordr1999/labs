@@ -1,7 +1,7 @@
 #include <errno.h>
 #include <stdio.h>
 #include <stdlib.h>
-#define STKDPTH 32 // Глубина стека
+#define STKDPTH 128 // Глубина стека
 
 // Значения, возвращаемые функцией parse
 #define VAL  0  // В стек занесено новое значение
